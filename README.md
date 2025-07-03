@@ -1,88 +1,41 @@
-# connordlawrence.gitub.io
-A life aquatic
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connor Lawrence | Molecular Biologist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Connor Lawrence</h1>
+      <p>Molecular Biologist · Genomics & Transcriptomics · Environmental Systems</p>
+    </header>
 
-# h1 heading
-## h2 heading
-### h3 heading
-#### h4 heading
-##### h5 heading
+    <section class="profile">
+      <!-- You can replace the placeholder with your actual image later -->
+      <img src="Goteborg.jpg" alt="Connor Lawrence" class="profile-pic" />
+      <div class="bio">
+        <p>I’m a molecular biologist living in Germany, originally from the U.S., wrapping up my PhD. My current research focuses on gene expression in complex microbial systems, including diatoms, fungi, and bacteria. I’ve always been fascinated by how organisms interact at the molecular level, especially during parasitism and symbiosis.</p>
 
-## Horizontal Rules
+        <p>Before diving into genomics, I earned a Master’s in horticultural microbiology in Sweden, and prior to that, completed a Bachelor’s degree at West Point. I spent five years as a U.S. Army officer, including a deployment to Afghanistan. Later, I pursued a PhD in Geochemistry with a focus on supervolcanoes and mineral deposits before switching gears toward molecular ecology. Life’s had its tough turns—international moves, a divorce—but also incredible highs: remarriage, three wonderful kids (and a fourth on the way), and a research career that feels deeply meaningful.</p>
 
-__
+        <p>Someday, I’d like to write a book that connects these life experiences—military, science, resilience, and curiosity—into something readable and real. For now, I’m focused on building a postdoc around fungal life cycles and their influence on transcription and ecology.</p>
+      </div>
+    </section>
 
-## Emphasis
-**This is bold text**
-__This is bold text__
-*This is italic text*
-_This is italic text_
+    <section class="research">
+      <h2>Current Work</h2>
+      <p>My research explores how fungal parasites of diatoms influence gene expression, metabolism, and nutrient flow in freshwater ecosystems. I combine transcriptomics, cell counts, SIMS (for single-cell nutrient uptake), and chemical analyses to understand how infections reshape the host and its microbial community.</p>
 
-~~Strikethrough~~
+      <p>Using a new Asterionella (diatom) and Chytrid (fungi) genome and 30 co-occurring bacterial MAGs, I investigate how infection stages affect transcription in the host, parasite, and the associated microbiome. The current patterns suggest fungi remodel host metabolism in ways that facilitate bacterial access to resources with some very exciting implications (publication pending).</p>
+    </section>
 
-## Block quotes
+    <footer>
+      <p>Contact: connordlawrence@gmail.com | GitHub: github.com/connordlawrence.gitbut.io
+    </footer>
+  </div>
+</body>
+</html>
 
-> Block quotes can also be nested
->> by using additional greater than signs
-> > > or spaces between
-
-# Lists
-
-Unordered
-
-+ Create a list by starting a line with '+', '-', or '*'
-+ Sub lists are made by indenting two spaces
-  - Marker lists
-      * A
-      * B
-      * C
-  - very easy
-
-Ordered
-1. A
-2. B
-3. C
-
-## Code
-
-Inline 'code'
-
-  //Some comments
-  Line 1
-  Line 2
-  Line 3 of code
-
-Block code "fences"
-
-...
-Sample text here
-...
-
-Syntax highlighting
-
-''' js
-var foo = function (bar) {
-  return bar++;
-};
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files |
-| engine | engine to be used for processing templates |
-| ext    | extension to be used |
-
-| Option | Description |
-| -----: | ----------: |
-| data   | path to data files |
-| engine | engine to be used for processing templates |
-| ext    | extension to be used |
-
-## Links
-
-[link text](youtube.com)
-[link text](youtube.com "title of link")
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
